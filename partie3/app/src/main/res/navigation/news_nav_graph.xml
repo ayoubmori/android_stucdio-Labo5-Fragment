@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:id="@+id/news_nav_graph"
+    app:startDestination="@id/breakingNewsFragment">
+    <fragment
+        android:id="@+id/breakingNewsFragment"
+        android:name="com.adia.laboratoire2.BreakingNewsFragment" android:label="breaking_news_fragment"
+        tools:layout="@layout/fragment_breaking_news" >
+        <action
+            android:id="@+id/action_breakingNewsFragment_to_articleFragment" app:destination="@id/articleFragment" />
+    </fragment>
+    <fragment
+
+    android:id="@+id/allNewsFragment"
+    android:name="com.adia.laboratoire2.AllNewsFragment" android:label="all_news_fragment"
+    tools:layout="@layout/fragment_all_news" > <action
+    android:id="@+id/action_allNewsFragment_to_articleFragment" app:destination="@id/articleFragment" />
+</fragment>
+<fragment
+android:id="@+id/savedNewsFragment"
+android:name="com.adia.laboratoire2.SavedNewsFragment" android:label="saved_news_fragment"
+tools:layout="@layout/fragment_saved_news" >
+<action
+    android:id="@+id/action_savedNewsFragment_to_articleFragment" app:destination="@id/articleFragment" />
+</fragment>
+<fragment
+android:id="@+id/articleFragment"
+android:name="com.adia.laboratoire2.ArticleFragment" android:label="article_fragment"
+tools:layout="@layout/fragment_article" /> </navigation>

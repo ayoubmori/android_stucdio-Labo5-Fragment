@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laboratoire1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gostatic">GO TO STATIC FRAGMENTS</string>
+    <string name="godynamique">GO TO DYNAMIQUE FRAGMENTS</string>
+    <string name="btn_change_fragment_txt">Changer Fragment</string>
+</resources>

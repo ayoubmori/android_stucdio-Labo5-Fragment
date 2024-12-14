@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GG220StudentFragment001v0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="yes_message">POET : J\'aime</string>
+    <string name="question_poem"> Aimez Vous le Poeme ?</string>
+    <string name="no_message">POET : Merci</string>
+    <string name="poeteDescription">Gérald Godin est un poète et un homme politique québécois né le 13 novembre 1938 à Montréal et mort le 12 octobre 1994. Il est l\'auteur d\'une œuvre poétique riche et variée, qui explore des thèmes tels que la condition humaine, la nature, la politique et la société.  Godin a commencé à écrire de la poésie dès son adolescence. En 1967, il publie son premier recueil, L\'homme rapaillé, qui remporte le Prix du Gouverneur général.</string>
+    <string name="open">Open</string>
+
+</resources>
